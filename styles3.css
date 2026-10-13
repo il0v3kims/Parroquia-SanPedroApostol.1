@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: alergian;
+}
+header, .bloque{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.bloque img{
+	width: 200px;
+	height: auto;
+}
+.menu{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	background-color: darkblue;
+	font-family: alergian;
+	text-decoration: none;
+}
+.menu li{
+	margin: 0 30px;
+	margin-top: 5px;
+	transform: scale(1.20);
+	background-color: ;
+	border-radius: 4px;
+}
+li{
+	padding: 8px 15px;
+}
+header{
+	border: 15px solid darkblue;
+	box-shadow: 0px 4px 15px rgba(197, 160, 89, 0.25);
+	margin-bottom: 20px;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 8px 12px;
+	transition: 0.3s;
+	border-radius: 10px;
+}
+.menu a:hover{
+	background-color: skyblue;
+}
+.menu li{
+	transform: scale(1.20);
+}
+        .seccion-horarios {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .seccion-horarios h2 {
+            text-align: center;
+            color: #8B0000;
+        }
+
+        .seccion-horarios h3 {
+            color: #444;
+            border-bottom: 2px solid #8B0000;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        .seccion-horarios ul {
+            margin: 10px 0 10px 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+        p {
+        	text-align: center;
+	        font-size: 15px;
+	        margin: 20px;
+	        font-family: alergian,  cursive;
+        }
+    .botones img{
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin-top: 5px;
+}
+.botones{
+	position: fixed;
+	right: 50px;
+	bottom: 20px;
+	padding: 20px;
+}
+.footer-bloque {
+	background-color: darkblue;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 4px;
+	padding: 10px;
+	color: white;
+}
+.footer-bloque p{
+	margin: 4px 0;
+	font-size: 14px;
+	text-align: center;
+	background-color: darkblue;
+}

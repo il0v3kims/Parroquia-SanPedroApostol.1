@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: alergian;
+}
+header, .bloque{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.bloque img{
+	width: 200px;
+	height: auto;
+}
+.menu{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	background-color: darkblue;
+	font-family: alergian;
+	text-decoration: none;
+}
+.menu li{
+	margin: 0 30px;
+	margin-top: 5px;
+	transform: scale(1.20);
+	background-color: ;
+	border-radius: 4px;
+}
+li{
+	padding: 8px 15px;
+}
+header{
+	border: 15px solid darkblue;
+	box-shadow: 0px 4px 15px rgba(197, 160, 89, 0.25);
+	margin-bottom: 20px;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 8px 12px;
+	transition: 0.3s;
+	border-radius: 10px;
+}
+.menu a:hover{
+	background-color: skyblue;
+}
+.menu li{
+	transform: scale(1.20);
+}
+h1{
+	text-align: center;
+	margin-top: 10px;
+}
+p{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.ministerios {
+	display: flex;
+	flex-wrap: wrap ;
+	vertical-align: top;
+	justify-content: center;
+	gap: 20px;
+	width: 100%;
+	text-align: center;
+}
+.tarjeta {
+	background-color: white;
+	width: 280px;
+	vertical-align: top;
+	border-radius: 12px;
+	overflow: hidden;
+	text-align: left;
+	margin: 15px;
+	border: 1px solid #ccc;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.tarjeta img {
+	width: 120px;
+	height: auto;
+	object-fit: cover;
+	border-radius: 10%;
+	display: block;
+	margin: 20px auto 0 auto;
+}
+.tarjeta, p {
+	padding: 5px;
+	text-align: justify;
+}
+h3 {
+	color: #8B0000;
+	margin-top: 0;
+	text-align: center;
+}
+details {
+	background-color: #fafafa;
+	border: 1px solid #ddd;
+	padding: 8px;
+	border-radius: 5px;
+	margin-top: 2px;
+}
+summary {
+	font-weight: bold;
+	color: black;
+	cursor: pointer;
+}
+.tarjeta ul {
+	margin:10px;
+}
+.frase {
+	text-align: center;
+	font-size:  19px;
+	margin: 20px;
+	padding: 0;
+}
+.frase p {
+	text-align: center;
+	font-size:  22px;
+	margin: 20px;
+}
+.final p {
+	text-align: center;
+	font-size: 15px;
+	margin: 20px;
+	font-family: alergian,  cursive;
+}
+.botones img{
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin-top: 5px;
+}
+.botones{
+	position: fixed;
+	right: 50px;
+	bottom: 20px;
+	padding: 20px;
+}
+.footer-bloque {
+	background-color: darkblue;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 4px;
+	padding: 10px;
+	color: white;
+}
+.footer-bloque p{
+	margin: 4px 0;
+	font-size: 14px;
+	text-align: center;
+}
